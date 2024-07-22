@@ -11,6 +11,7 @@
     <groupId>org.denys</groupId>
     <artifactId>TicketService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>TicketService</name>
     <description>TicketService</description>
     <url/>
@@ -20,6 +21,9 @@
     <developers>
         <developer/>
     </developers>
+    <modules>
+        <module>user</module>
+    </modules>
     <scm>
         <connection/>
         <developerConnection/>
