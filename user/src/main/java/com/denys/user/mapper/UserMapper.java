@@ -4,7 +4,8 @@ import com.denys.user.dto.UserDto;
 import com.denys.user.dto.UserRegistrationDto;
 import com.denys.user.model.User;
 import org.mapstruct.Mapper;
-import org.mapstruct.MapperConfig;
+import com.denys.user.config.MapperConfig;
+
 
 @Mapper(config = MapperConfig.class)
 public interface UserMapper {
